@@ -21,7 +21,7 @@ function testCases() {  // verifica functionalitatea functiei fizzbuzz pentru un
     if (fizzbuzz("a") != "Please insert a NUMBER") { ok = 0 }   //verificam functionalitatea functiei daca se introduce litera
     if (fizzbuzz() != "Please insert a NUMBER") { ok = 0 }   //verificam functionalitatea functiei daca nu se introduce nimic
     for (let i = a; i <= b && ok === true; i++) {
-        // console.log(i, fizzbuzz(i), typeof (fizzbuzz(i)))  //afisam toate perechile i, numar,rezultat functie buzzfizz
+        // console.log(i, fizzbuzz(i), typeof (fizzbuzz(i)))  //afisam toate perechile: i, numar,rezultat functie buzzfizz
 
         if (i % 3 === 0 && i % 5 === 0) {
             if (fizzbuzz(i) != "FizzBuzz") { ok = false }
